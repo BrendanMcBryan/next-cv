@@ -5,8 +5,8 @@ export default function DILogo() {
     <div
       className="flex flex-col items-center"
     >
-      <Image  className="" src={di_logo} alt="logo" width={100} height={100}/>
-      <p className=" text-cyan-300">designinging intent</p>
+      <Image  className="rounded-full overflow-hidden animate-pulse-slow" src={di_logo} alt="logo" width={200} height={200}/>
+    
     </div>
   );
 }
