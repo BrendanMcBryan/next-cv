@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
+
 import { Inter } from 'next/font/google'
 import './globals.css'
-
+// import React, { useState } from 'react'
 const inter = Inter({ subsets: ['latin'] })
+import StickMenu from './ui/stickysidemenu'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -14,8 +16,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
+  // const [showSidebar, setShowSidebar] = useState(false);
+
   return (
     <html lang="en">
+      {/* <StickMenu show={showSidebar} setter={setShowSidebar} /> */}
       <body className={inter.className}>{children}</body>
     </html>
   )
