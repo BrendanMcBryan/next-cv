@@ -13,7 +13,7 @@ export default function StickMenu({ show, setter }) {
   const appendClass = show ? "mr-0" : " mr-[-250px] md:ml-0";
 
 
-  return (<div className='absolute inset-y-0 right-0 flex flex-col items-center justify-center'>
+  return (<div className='fixed inset-y-0 right-0 flex flex-col items-center justify-center'>
     <aside className="flex flex-col p-3 bg-pink-500  z-40 rounded-l-lg" onMouseEnter={() => {
       setter(oldVal => !oldVal);
     }}
@@ -23,7 +23,7 @@ export default function StickMenu({ show, setter }) {
 
     >
 
-      <div className="flex justify-center">
+      <div className="flex ">
         <Image className="hover:animate-pulse " src={DILogo} alt="DI logo" width={20} height={20} />
       </div>
       <div className="flex items-center">
