@@ -14,9 +14,10 @@ export default function StickMenu({ show, setter }: { show: any, setter: any }) 
 
 
   return (<div className='fixed inset-y-0 right-0 flex flex-col items-center justify-center'>
-    <aside className="flex flex-col p-3 bg-pink-500  z-40 rounded-l-lg" onMouseEnter={() => {
-      setter((oldVal: any) => !oldVal);
-    }}
+    <aside className="flex flex-col p-3 bg-pink-500  z-40 rounded-l-lg"
+      onMouseEnter={() => {
+        setter((oldVal: any) => !oldVal);
+      }}
       onMouseLeave={() => {
         setter((oldVal: any) => !oldVal);
       }}
@@ -28,11 +29,16 @@ export default function StickMenu({ show, setter }: { show: any, setter: any }) 
       </div>
       <div className="flex items-center">
         <IoDocument className="text-white my-3 me-3 hover:animate-pulse text-xl" />
-        <h2 className={`${className}${appendClass}`}>resume</h2>
+        <Link href="/McBryan_resume.pdf" locale={false} target="_blank" className={`${className}${appendClass}`}>
+          <h2>resume</h2>
+        </Link>
+        
       </div>
       <div className="flex items-center">
         <IoImages className="text-white me-3 hover:animate-pulse text-xl" />
-        <h2 className={`${className}${appendClass}`}>pdf</h2>
+        <Link href="/McBryan_portfolio.pdf" locale={false} target="_blank" className={`${className}${appendClass}`}>
+          <h2>resume</h2>
+        </Link>
       </div>
 
     </aside >
