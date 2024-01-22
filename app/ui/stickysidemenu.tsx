@@ -13,8 +13,8 @@ export default function StickMenu({ show, setter }) {
   const appendClass = show ? "mr-0" : " mr-[-250px] md:ml-0";
 
 
-  return (<>
-    <aside className="flex flex-col p-3 bg-pink-500 right-0 fixed z-40 rounded-l-lg" onMouseEnter={() => {
+  return (<div className='absolute inset-y-0 right-0 flex flex-col items-center justify-center'>
+    <aside className="flex flex-col p-3 bg-pink-500  z-40 rounded-l-lg" onMouseEnter={() => {
       setter(oldVal => !oldVal);
     }}
       onMouseLeave={() => {
@@ -36,5 +36,5 @@ export default function StickMenu({ show, setter }) {
       </div>
 
     </aside >
-  </>)
+  </div>)
 }
