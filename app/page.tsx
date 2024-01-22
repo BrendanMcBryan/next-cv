@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 
 import StickMenu from './ui/stickysidemenu'
-import Navbar from "./ui/navbar";
+// import Navbar from "./ui/navbar";
 import Project from './ui/project';
 
 import TopSection from './sections/top';
