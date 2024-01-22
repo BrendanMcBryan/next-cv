@@ -6,7 +6,7 @@ import DILogo from "@/public/DesigningIntentLogo.webp";
 import Image from "next/image";
 
 
-export default function StickMenu({ show, setter }) {
+export default function StickMenu({ show, setter }: { show: any, setter: any }) {
 
   // Define our base class
   const className = " font-light text-sm text-white ms-2 transition-[margin-right] ease-in-out duration-300 hover:font-bold cursor-pointer";
