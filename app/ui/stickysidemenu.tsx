@@ -14,7 +14,7 @@ export default function StickMenu({ show, setter }: { show: any, setter: any }) 
 
 
   return (<div className='fixed inset-y-0 right-0 flex flex-col items-center justify-center'>
-    <aside className="flex flex-col p-3 bg-pink-500  z-40 rounded-l-lg"
+    <aside className="flex flex-col p-3 bg-pink-600 rounded-l-lg"
       onMouseEnter={() => {
         setter((oldVal: any) => !oldVal);
       }}
