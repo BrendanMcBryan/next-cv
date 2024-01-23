@@ -3,7 +3,7 @@ import ToolSet from '@/app/ui/toolset'
 export default function TopSection() {
   return (
     <section
-      className="flex flex-col-reverse items-center max-w-[1200px] min-h-screen  md:flex-row justify-between  "
+      className="flex flex-col-reverse items-center  min-h-screen  md:flex-row justify-between"
     >
 
       <div className="p-12 w-full flex-1 flex flex-col justify-center  ">
@@ -14,7 +14,7 @@ export default function TopSection() {
         <ToolSet />
       </div>
       <div className="flex-1 flex flex-col justify-center">
-        <div className=' overflow-hidden py-52'><DILogo /></div>
+        <div className=' overflow-hidden py-26'><DILogo /></div>
       </div>
 
     </section>
