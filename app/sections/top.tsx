@@ -14,7 +14,7 @@ export default function TopSection() {
         <ToolSet />
       </div>
       <div className="flex-1 flex flex-col justify-center">
-        <DILogo />
+        <div className="animate-slide-up"><DILogo/></div>
       </div>
 
     </section>
