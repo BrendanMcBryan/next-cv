@@ -24,8 +24,10 @@ export default function StickMenu({ show, setter }: { show: any, setter: any }) 
 
     >
 
-      <div className="flex ">
+      <div className="flex items-center">
         <Image className="hover:animate-pulse " src={DILogo} alt="DI logo" width={20} height={20} />
+        {/* <h2 className={`${className}${appendClass}`}>downloads</h2> */}
+        
       </div>
       <div className="flex items-center">
         <IoDocument className="text-white my-3 me-3 hover:animate-pulse text-xl" />
@@ -37,7 +39,7 @@ export default function StickMenu({ show, setter }: { show: any, setter: any }) 
       <div className="flex items-center">
         <IoImages className="text-white me-3 hover:animate-pulse text-xl" />
         <Link href="/McBryan_portfolio.pdf" locale={false} target="_blank" className={`${className}${appendClass}`}>
-          <h2>resume</h2>
+          <h2>portfolio</h2>
         </Link>
       </div>
 
