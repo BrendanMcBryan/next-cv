@@ -18,14 +18,11 @@ const config: Config = {
           '0%': {
             transform: 'translateY(600px)',
           },
-
-         
           '100%': {
             transform: 'translateY(0px)',
           },
         },
       },
-
 
       animation: {
         'pulse-slow': 'pulse 12s cubic-bezier(0.4, 0, 0.6, 1) infinite;',
