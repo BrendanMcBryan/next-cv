@@ -1,5 +1,6 @@
 {
   "workbench.colorTheme": "Andromeda",
+  "editor.fontSize": 15,
   "workbench.colorCustomizations": {
     "terminal.background": "#080c0f",
     "editor.background": "#000000",
@@ -7,6 +8,7 @@
     "activityBar.background": "#21618c",
     "tab.activeBackground": "#000000",
     "tab.activeBorder": "#21618c"
+
   },
   "files.associations": {
     "*.css": "tailwindcss"
