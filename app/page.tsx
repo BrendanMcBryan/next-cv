@@ -14,13 +14,13 @@ export default function Home() {
   const [showSidebar, setShowSidebar] = useState(false);
   return (
 
-    <main className="flex flex-col items-center justify-center px-0 ">
+    <main className="flex flex-col items-center justify-center px-0">
       {/* <Navbar/> */}
 
       <StickMenu show={showSidebar} setter={setShowSidebar} />
       <TopSection />
       <AboutSection />
-      <Project title="Offering Memoranda" />
+      <Project />
       <Contact />
 
 
