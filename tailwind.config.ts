@@ -27,7 +27,8 @@ const config: Config = {
       animation: {
         'pulse-slow': 'pulse 12s cubic-bezier(0.4, 0, 0.6, 1) infinite;',
         'slide-up': 'slide_up 5s ease 1',
-      }
+      },
+     
     },
   },
   plugins: [],
