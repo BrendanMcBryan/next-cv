@@ -4,9 +4,9 @@ export default function TopSection() {
   return (
 
     <section
-      className="flex flex-col justify-center w-full min-h-screen bg-red-200"
+      className="flex flex-col justify-center w-full min-h-screen "
     >
-      <div className="flex flex-col-reverse items-center max-w-[1200px] mx-auto bg-blue-200 md:flex-row justify-between ">
+      <div className="flex flex-col-reverse items-center max-w-[1200px] mx-auto md:flex-row justify-between ">
 
         <div className="p-12 w-full flex-1 flex flex-col justify-center  ">
           <h1 className="text-cyan-900 font-light text-3xl mb-2">brendan mcbryan</h1>

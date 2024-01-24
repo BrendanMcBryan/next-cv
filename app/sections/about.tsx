@@ -8,7 +8,7 @@ export default function aboutSection() {
   const iconClass = " text-5xl text-center text-pink-300 mx-auto mb-3"
   return <>
     <section
-      className="flex flex-col items-start justify-start bg-slate-50 py-12 "
+      className="flex flex-col items-start justify-start  py-12 "
     >
       <div className="flex flex-col max-w-[1200px]">
         <div className="p-12 w-full flex-1 flex flex-col justify-start">
