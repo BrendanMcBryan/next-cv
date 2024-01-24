@@ -21,7 +21,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      {/* <StickMenu show={showSidebar} setter={setShowSidebar} /> */}
+      
       <body className={`${montserrat.className} antialiased`}>{children}</body>
     </html>
   )
