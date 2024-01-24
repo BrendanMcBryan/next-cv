@@ -1,10 +1,9 @@
 import DILogo from '@/app/ui/dilogo';
-import ToolSet from '@/app/ui/toolset'
 export default function TopSection() {
   return (
 
     <section
-      className="flex flex-col justify-center w-full min-h-screen "
+      className="flex flex-col justify-center w-full min-h-screen bg-gradient-drops"
     >
       <div className="flex flex-col-reverse items-center max-w-[1200px] mx-auto md:flex-row justify-between ">
 
@@ -13,7 +12,7 @@ export default function TopSection() {
           <h2 className="text-light  text-slate-700 mb-4">designer and developer</h2>
           <p className="font-light text-slate-700">Expert desinger with a history of creating digital and printed pieces for a wide audiens.
             below you will recent examples of my work. feel free to contacat me with and work requests</p>
-          <ToolSet />
+         
         </div>
         <div className="flex-1 flex flex-col justify-center">
           <div className=' overflow-hidden py-26'><DILogo /></div>
