@@ -10,17 +10,19 @@ export default function Projects() {
     name: string; title: string;
   }, index: Key) => {
     return (
-      <div key={index} className="bg-slate-600 p-12 hover:bg-slate-400">
+      <article key={index} className="flex flex-col w-full mx-auto max-w-[1200px] bg-slate-400 border-slate-800 mb-1 p-12">
         <h1 className="text-xl">{item.name}</h1>
         <h2 className="text-sm">{item.title}</h2>
 
-      </div>
+      </article>
     )
 
   });
   // console.log(renderProjects);
 
-  return (<div>{renderProjects}</div>)
+  return (<section
+    className="flex flex-col w-full mx-auto justify-start  py-12 "
+  >{renderProjects}</section>)
 
 
 }
