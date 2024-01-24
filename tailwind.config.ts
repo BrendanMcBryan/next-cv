@@ -12,6 +12,8 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-drops':
+          'radial-gradient(70% 53% at 56% 76%, #73F2FF82 0%, #073AFF00 56%),radial-gradient(28% 37% at 75% 45%, #FCF00040 24%, #073AFF00 100%),radial-gradient(35% 56% at 91% 74%, #FA2FF84A 11%, #073AFF00 87%)'
       },
       keyframes: {
         slide_up: {
@@ -28,7 +30,7 @@ const config: Config = {
         'pulse-slow': 'pulse 12s cubic-bezier(0.4, 0, 0.6, 1) infinite;',
         'slide-up': 'slide_up 5s ease 1',
       },
-     
+
     },
   },
   plugins: [],
